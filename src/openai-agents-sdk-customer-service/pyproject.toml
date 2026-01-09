@@ -1,0 +1,10 @@
+[project]
+name = "openai-agents-sdk-customer-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "openai-agents[litellm]>=0.6.5",
+    "python-dotenv>=1.2.1",
+]
